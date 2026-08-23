@@ -1,0 +1,68 @@
+{
+  "path": "data/p1_paired/en/pairs.jsonl",
+  "n_pairs": 150,
+  "position_counts": [
+    50,
+    50,
+    50
+  ],
+  "chi_square": 0.0,
+  "chi_square_p": 1.0,
+  "rules": {
+    "R1": {
+      "description": "question is byte-identical across A and B",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R2": {
+      "description": "same number of chunks",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R3": {
+      "description": "context length differs by <= 5%",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R5": {
+      "description": "evidence position is uniform across head/middle/tail (chi-square p > 0.05)",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R7": {
+      "description": "gold answer does not appear anywhere in context B",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R8": {
+      "description": "exactly one sentence differs; all others are byte-identical",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R9": {
+      "description": "replacement proposition contains no vague quantifier",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R10": {
+      "description": "digit density preserved (|delta| <= 0.01)",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    },
+    "R11": {
+      "description": "replacement states a different field than the evidence",
+      "pass_rate": 1.0,
+      "pass": true,
+      "failures": []
+    }
+  },
+  "pass": true
+}
