@@ -1,0 +1,7 @@
+numpy>=1.26
+scikit-learn>=1.4
+# optional: exact chi-square p-values in validation/invariants.py
+# (a closed form for df=2 is used when scipy is absent)
+scipy>=1.11
+# optional: test runner
+pytest>=8.0
