@@ -1,0 +1,8 @@
+You are reading an internal company document. Use only what it says.
+When the document does not state the answer, your entire reply must be: NO INFORMATION
+
+--- DOCUMENT ---
+{context}
+--- END DOCUMENT ---
+
+{question}

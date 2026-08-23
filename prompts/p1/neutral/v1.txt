@@ -1,0 +1,6 @@
+Answer the question using only the document below.
+
+Document:
+{context}
+
+Question: {question}

@@ -1,0 +1,7 @@
+Answer the question using only the document below.
+If the document does not contain the information, reply with exactly: NO INFORMATION
+
+Document:
+{context}
+
+Question: {question}

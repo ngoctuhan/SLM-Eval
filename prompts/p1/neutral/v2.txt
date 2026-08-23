@@ -1,0 +1,7 @@
+You are reading an internal company document. Use only what it says.
+
+--- DOCUMENT ---
+{context}
+--- END DOCUMENT ---
+
+{question}

@@ -1,0 +1,7 @@
+Document:
+{context}
+
+Based strictly on the document above, answer this question: {question}
+
+Do not guess. If the answer is not stated in the document, reply with exactly:
+NO INFORMATION

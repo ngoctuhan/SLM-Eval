@@ -1,0 +1,4 @@
+Document:
+{context}
+
+Based strictly on the document above, answer this question: {question}
