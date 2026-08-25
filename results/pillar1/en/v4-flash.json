@@ -1,0 +1,59 @@
+{
+  "model": "v4-flash",
+  "pillar": 1,
+  "lang": "en",
+  "runs": {
+    "explicit/v1": {
+      "run_id": "p1_v4-flash_explicit_v1_s1_20260823T120952Z",
+      "source": "results/raw/p1_v4-flash_explicit_v1_s1_20260823T120952Z.jsonl",
+      "model_version": "deepseek-v4-flash",
+      "condition": "explicit",
+      "prompt": "v1",
+      "seed": 1,
+      "temperature": 0.0,
+      "thinking": "disabled",
+      "n_pairs": 150,
+      "tier_mix": {
+        "1": 122,
+        "2": 178
+      },
+      "outcome_counts": {
+        "discriminative": 134,
+        "blind": 3,
+        "overconfident": 12,
+        "incompetent": 1,
+        "hedged_capable": 0,
+        "hedged_incapable": 0
+      },
+      "metrics": {
+        "n": 150,
+        "DAS": 0.8933,
+        "BAR": 0.02,
+        "OCR": 0.08,
+        "NAR": 0.9133,
+        "HR": 0.0,
+        "ACC_A": 0.9733,
+        "cDAS": 0.9178
+      },
+      "bootstrap95": {
+        "das": [
+          0.8933,
+          0.84,
+          0.94
+        ],
+        "cdas": [
+          0.9178,
+          0.869,
+          0.9592
+        ]
+      },
+      "tokens": {
+        "in": 43543,
+        "out": 1592
+      },
+      "cost_usd": 0.0213,
+      "scorer_validated": false,
+      "scored_utc": "2026-08-25T14:35:52Z"
+    }
+  }
+}
