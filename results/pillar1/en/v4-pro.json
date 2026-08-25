@@ -1,0 +1,59 @@
+{
+  "model": "v4-pro",
+  "pillar": 1,
+  "lang": "en",
+  "runs": {
+    "explicit/v1": {
+      "run_id": "p1_v4-pro_explicit_v1_s1_20260823T124318Z",
+      "source": "results/raw/p1_v4-pro_explicit_v1_s1_20260823T124318Z.jsonl",
+      "model_version": "deepseek-v4-pro",
+      "condition": "explicit",
+      "prompt": "v1",
+      "seed": 1,
+      "temperature": 0.0,
+      "thinking": "disabled",
+      "n_pairs": 150,
+      "tier_mix": {
+        "1": 134,
+        "2": 166
+      },
+      "outcome_counts": {
+        "discriminative": 129,
+        "blind": 4,
+        "overconfident": 15,
+        "incompetent": 1,
+        "hedged_capable": 1,
+        "hedged_incapable": 0
+      },
+      "metrics": {
+        "n": 150,
+        "DAS": 0.86,
+        "BAR": 0.0267,
+        "OCR": 0.1,
+        "NAR": 0.8867,
+        "HR": 0.0067,
+        "ACC_A": 0.9667,
+        "cDAS": 0.8897
+      },
+      "bootstrap95": {
+        "das": [
+          0.86,
+          0.8,
+          0.9133
+        ],
+        "cdas": [
+          0.8897,
+          0.8345,
+          0.9384
+        ]
+      },
+      "tokens": {
+        "in": 43543,
+        "out": 1342
+      },
+      "cost_usd": 0.0628,
+      "scorer_validated": false,
+      "scored_utc": "2026-08-25T14:35:52Z"
+    }
+  }
+}
